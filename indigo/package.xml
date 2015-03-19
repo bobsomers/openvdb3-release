@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>openvdb3</name>
+  <version>:{version}</version>
+  <description>
+    The OpenVDB library comprises a hierarchical data structure and a suite of
+    tools for the efficient manipulation of sparse, time-varying, volumetric
+    data discretized on three-dimensional grids.
+  </description>
+
+  <maintainer email="bob@zoox.com">Bob Somers</maintainer>
+  <license>Mozilla Public License Version 2.0</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <run_depend>catkin</run_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
